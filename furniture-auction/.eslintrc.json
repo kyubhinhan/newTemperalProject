@@ -1,11 +1,8 @@
 {
-  "env": { 
-      "browser": true, 
-      "es6": true,
-      "node": true 
-  },
-  "extends": ["airbnb", "plugin:prettier/recommended"],
-  "rules": {
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-  }
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",    
+    "react-app",
+    "prettier"
+  ]
 }
